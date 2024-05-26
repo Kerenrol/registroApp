@@ -1,0 +1,25 @@
+#div_principal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#texto {
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+#login_section {
+    background-color: blueviolet;
+    width: 35%;
+    height: 650px;
+    border: 1px rgb(159, 59, 253) solid;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
