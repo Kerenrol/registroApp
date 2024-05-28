@@ -8,7 +8,7 @@ const guardar = (dato) => {
 
 const imprimir = () => {
     if (pila.length === 0) {
-        alert("La pila está vac+ia");
+        alert("La pila está vacía");
     } else {
         let elementos = pila.map((elem, index) => `Elemento ${index +1}: ${JSON.stringify(elem)}`).join(("\n"));
         alert("Elementos en la pila:\n" + elementos);
